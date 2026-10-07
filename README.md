@@ -1,8 +1,8 @@
 # Steven Buschbach
 
-Personal economics website at **https://stevenbuschbach.github.io/**.
+Private draft of Steven Buschbach's personal economics website.
 
-Plain HTML and CSS, hosted on GitHub Pages. No build step, framework, or external font service is required.
+Plain HTML and CSS. GitHub Pages is disabled, and the repository is private at https://github.com/stevenbuschbach/academic-website-draft. No build step, framework, or external font service is required.
 
 ## Edit the website
 
@@ -10,7 +10,7 @@ Plain HTML and CSS, hosted on GitHub Pages. No build step, framework, or externa
 - `styles.css`: colors, typography, spacing, and mobile layout.
 - `assets/`: add the portrait, CV, and paper PDFs here.
 
-GitHub Pages publishes the root of the `main` branch. Commit and push changes to `main` to update the live website automatically.
+Changes to `main` only update this private repository. Do not enable GitHub Pages or rename the repository to `stevenbuschbach.github.io` unless publication is explicitly requested.
 
 ## Add the photo and CV
 
@@ -32,7 +32,7 @@ Then visit http://127.0.0.1:8765/.
 
 ## Draft status
 
-The website is public. A `noindex, nofollow` meta tag asks search engines not to index the draft while the photo, CV, and project details are pending. It does not restrict access. Remove that tag from `index.html` when the site is ready for search engines.
+The website has been unpublished. The source and history are retained in this private repository. The HTML also includes a `noindex, nofollow` meta tag; that tag alone does not restrict access.
 
 `.nojekyll` tells GitHub Pages to serve these static files without processing them as a Jekyll project.
 
