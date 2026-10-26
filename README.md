@@ -1,8 +1,8 @@
 # Steven Buschbach
 
-Private draft of Steven Buschbach's personal economics website.
+Steven Buschbach's personal academic website, published at https://stevenbuschbach.github.io.
 
-Plain HTML and CSS. GitHub Pages is disabled, and the repository is private at https://github.com/stevenbuschbach/academic-website-draft. No build step, framework, or external font service is required.
+Plain HTML and CSS, hosted with GitHub Pages from https://github.com/stevenbuschbach/stevenbuschbach.github.io. No build step, framework, or external font service is required.
 
 ## Edit the website
 
@@ -11,15 +11,15 @@ Plain HTML and CSS. GitHub Pages is disabled, and the repository is private at h
 - `teaching.html`: teaching experience.
 - `cv.html`: CV information and download link.
 - `styles.css`: shared colors, typography, spacing, and mobile layout.
-- `assets/`: add the portrait, CV, and paper PDFs here.
+- `assets/`: portrait photo, plus future CV and paper PDFs.
 
-Changes to `main` only update this private repository. Do not enable GitHub Pages or rename the repository to `stevenbuschbach.github.io` unless publication is explicitly requested.
+GitHub Pages publishes the repository root from `main`. Changes pushed to `main` automatically update the public website.
 
-## Add the photo and CV
+## Photo, CV, and contact details
 
-1. Save the photo as `assets/portrait.jpg`. In `index.html`, replace the entire `portrait-placeholder` div with the commented image element immediately above it.
+1. The supplied portrait is saved as `assets/portrait.jpg` and displayed on the About page. The original photo is unchanged; CSS fits it into the portrait frame.
 2. Save the CV as `assets/steven-buschbach-cv.pdf`. In `cv.html`, replace the `PDF forthcoming` span with the commented CV link above it, and update the adjacent sentence.
-3. Add the preferred professional email address as a `mailto:` link in the introduction or footer.
+3. All page footers display the preferred contact text: `Contact me at sbuschbach@uchicago.edu`.
 
 Commented examples in `research.html` and `teaching.html` show how to add research papers with abstracts and teaching entries. Replace the relevant forthcoming text as real content becomes available.
 
@@ -33,9 +33,9 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 Then visit http://127.0.0.1:8765/.
 
-## Draft status
+## Publication
 
-The website has been unpublished. The source and history are retained in this private repository. The HTML also includes a `noindex, nofollow` meta tag; that tag alone does not restrict access.
+Publication was requested on October 26, 2026. The public site includes the supplied portrait, biography, and contact address. Research papers, teaching details, and the CV PDF can be added when ready.
 
 `.nojekyll` tells GitHub Pages to serve these static files without processing them as a Jekyll project.
 

@@ -38,10 +38,7 @@ h1 { font-family: var(--serif); color: var(--ink); font-weight: 400; font-size: 
 .primary-link { display: inline-block; padding: .65rem 1.25rem; border: 1px solid var(--ink); background: var(--ink); color: white; text-decoration: none; }
 .primary-link:hover { color: white; background: #102b40; }
 .portrait-block { margin: 0; }
-.portrait, .portrait-placeholder { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
-.portrait-placeholder { background: var(--wash); border: 1px solid #e2e8ec; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .8rem; }
-.monogram { font-family: var(--serif); font-size: 5rem; color: #6b8293; font-weight: 400; letter-spacing: -.07em; padding-right: .07em; line-height: 1.1; }
-.portrait-note { font-size: .75rem; letter-spacing: .04em; color: #5d707f; }
+.portrait { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 35%; }
 figcaption { padding-top: .9rem; font-size: .8125rem; color: var(--ink); line-height: 1.6; }
 figcaption span { display: block; color: var(--muted); }
 .content-section { display: grid; grid-template-columns: 220px minmax(0, 1fr); column-gap: 48px; padding: 48px 0 50px; border-top: 1px solid var(--line); }
