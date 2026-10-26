@@ -23,7 +23,7 @@ GitHub Pages publishes the repository root from `main`. Changes pushed to `main`
 
 Commented examples in `research.html` and `teaching.html` show how to add research papers with abstracts and teaching entries. Replace the relevant forthcoming text as real content becomes available.
 
-The Job Market Paper section in `research.html` has a disabled PDF placeholder. When ready, add the PDF to `assets/job-market-paper.pdf`, set the placeholder's `href` to that path, remove `aria-disabled`, and change its text to `Paper (PDF)`.
+The Job Market Paper section in `research.html` has a disabled PDF placeholder. When ready, add the PDF to `assets/buschbach_jmp.pdf`, set the placeholder's `href` to that path, remove `aria-disabled`, and change its text to `Paper (PDF)`.
 
 ## Preview locally
 
