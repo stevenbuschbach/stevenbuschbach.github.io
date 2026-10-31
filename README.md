@@ -9,7 +9,7 @@ Plain HTML and CSS, hosted with GitHub Pages from https://github.com/stevenbusch
 - `index.html`: About/home page with biography and contact information.
 - `research.html`: research interests and future papers.
 - `teaching.html`: teaching experience.
-- The navigation's `CV` link and the home page's `Curriculum vitae` link download `assets/buschbach_cv.pdf` directly; there is no separate CV page.
+- The navigation's `CV` link downloads `assets/buschbach_cv.pdf` directly; there is no separate CV page.
 - `styles.css`: shared colors, typography, spacing, and mobile layout.
 - `assets/`: portrait photo, the CV PDF, and future paper PDFs.
 
