@@ -56,6 +56,7 @@ summary { cursor: pointer; color: var(--ink); font-size: .875rem; width: fit-con
 details p { color: var(--muted); margin: .6rem 0 0; }
 .course { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem; }
 .course p, .course > span { color: var(--muted); font-size: .875rem; margin: 0; }
+.course + .course { border-top: 1px solid var(--line); margin-top: 1.5rem; padding-top: 1.5rem; }
 .cv-section { padding-bottom: 58px; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding: 26px 0 38px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8125rem; }
 .site-footer p { margin: 0; color: var(--ink); }
